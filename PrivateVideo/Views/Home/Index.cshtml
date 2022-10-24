@@ -1,0 +1,74 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<PrivateVideo.Data.StripeSettings> Stripe
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+  <div>
+       <section>
+
+                <div style="padding:56.25% 0 0 0;position:relative; height: 100vh">
+                    <iframe 
+                        src="https://player.vimeo.com/video/763150076?h=533c9cea3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="justice.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+    </section>
+  </div>
+
+<div>
+
+<!-- Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><b>LIVE SUBSCRIPTION</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <b>The truth will be revealed BIGGEST LIVE EVER { 12.12.2022 }</b><br />
+
+        Money from the subscriptions will be donated to the Q organization's fight
+        against the peadophile leadership and media!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <form asp-controller="Account" asp-action="Subscribe" method="post">
+                <article>
+                    <script src="https://checkout.stripe.com/checkout.js"
+                            class="stripe-button"
+                            data-key="@Stripe.Value.PublishableKey"
+                            data-locale="auto"
+                            data-description="Subscribe"
+                            data-amount="999"
+                            data-label="SUBSCRIBE $9.99">
+                    </script>
+                </article>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<script>
+    var iframe = document.querySelector('iframe');
+    var player = new Vimeo.Player(iframe);
+
+
+    player.on('ended', function(){
+        $("#subscribeModal").modal("show");
+    });
+</script>
+
+

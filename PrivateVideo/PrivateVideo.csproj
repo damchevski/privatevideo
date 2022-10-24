@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-PrivateVideo-367EAB58-87A6-4035-8D19-A6AA42E7FD99</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20221017172230_HasPaidFieldUser.cs" />
+    <Compile Remove="Data\Migrations\20221017172230_HasPaidFieldUser.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\truters\BennyJohnson.jpg" />
+    <Content Remove="wwwroot\images\truters\chiplit.jpg" />
+    <Content Remove="wwwroot\images\truters\DrC17.jpg" />
+    <Content Remove="wwwroot\images\truters\Gregg.jpg" />
+    <Content Remove="wwwroot\images\truters\JasonSHurka.jpg" />
+    <Content Remove="wwwroot\images\truters\John.jpg" />
+    <Content Remove="wwwroot\images\truters\Lindell.jpg" />
+    <Content Remove="wwwroot\images\truters\MidnightRider.jpg" />
+    <Content Remove="wwwroot\images\truters\MikeCoudrey.jpg" />
+    <Content Remove="wwwroot\images\truters\mistyg.jpg" />
+    <Content Remove="wwwroot\images\truters\Patel.jpg" />
+    <Content Remove="wwwroot\images\truters\Patri0tsareinControl.png" />
+    <Content Remove="wwwroot\images\truters\PatriotStreetFighter.jpg" />
+    <Content Remove="wwwroot\images\truters\philgodlewski.jpg" />
+    <Content Remove="wwwroot\images\truters\Qpumpkin.jpg" />
+    <Content Remove="wwwroot\images\truters\Qtah.jpg" />
+    <Content Remove="wwwroot\images\truters\RichardCitizen.jpg" />
+    <Content Remove="wwwroot\images\truters\Snowden.jpg" />
+    <Content Remove="wwwroot\images\truters\StewPeters.jpg" />
+    <Content Remove="wwwroot\images\truters\TheStormHasArrived.jpg" />
+    <Content Remove="wwwroot\images\truters\TommyRobinson.png" />
+    <Content Remove="wwwroot\images\truters\Truckersforfreedom.jpg" />
+    <Content Remove="wwwroot\images\truters\Trumpist.jpg" />
+    <Content Remove="wwwroot\images\truters\TruthHammer.jpg" />
+    <Content Remove="wwwroot\images\truters\vendetta.jpg" />
+    <Content Remove="wwwroot\images\truters\X2Reports.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30" />
+    <PackageReference Include="Stripe.net" Version="40.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Images\" />
+    <Folder Include="Content\Styles\" />
+    <Folder Include="Content\Videos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\truters\BennyJohnson.jpg" />
+    <None Include="wwwroot\images\truters\chiplit.jpg" />
+    <None Include="wwwroot\images\truters\DrC17.jpg" />
+    <None Include="wwwroot\images\truters\Gregg.jpg" />
+    <None Include="wwwroot\images\truters\JasonSHurka.jpg" />
+    <None Include="wwwroot\images\truters\John.jpg" />
+    <None Include="wwwroot\images\truters\Lindell.jpg" />
+    <None Include="wwwroot\images\truters\MidnightRider.jpg" />
+    <None Include="wwwroot\images\truters\MikeCoudrey.jpg" />
+    <None Include="wwwroot\images\truters\mistyg.jpg" />
+    <None Include="wwwroot\images\truters\Patel.jpg" />
+    <None Include="wwwroot\images\truters\Patri0tsareinControl.png" />
+    <None Include="wwwroot\images\truters\PatriotStreetFighter.jpg" />
+    <None Include="wwwroot\images\truters\philgodlewski.jpg" />
+    <None Include="wwwroot\images\truters\Qpumpkin.jpg" />
+    <None Include="wwwroot\images\truters\Qtah.jpg" />
+    <None Include="wwwroot\images\truters\RichardCitizen.jpg" />
+    <None Include="wwwroot\images\truters\Snowden.jpg" />
+    <None Include="wwwroot\images\truters\StewPeters.jpg" />
+    <None Include="wwwroot\images\truters\TheStormHasArrived.jpg" />
+    <None Include="wwwroot\images\truters\TommyRobinson.png" />
+    <None Include="wwwroot\images\truters\Truckersforfreedom.jpg" />
+    <None Include="wwwroot\images\truters\Trumpist.jpg" />
+    <None Include="wwwroot\images\truters\TruthHammer.jpg" />
+    <None Include="wwwroot\images\truters\vendetta.jpg" />
+    <None Include="wwwroot\images\truters\X2Reports.jpg" />
+  </ItemGroup>
+
+</Project>
