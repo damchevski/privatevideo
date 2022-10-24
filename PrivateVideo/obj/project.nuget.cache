@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L2V1Sj9UnYhr24SkqMSFU6DMUak7vKQQdZtaV3dnj37KXANWXPI/3LyuX0iqC/Yc7MZo2qHoZM1QxKPl1HdA2A==",
+  "dgSpecHash": "rcxKwEkj7OdmsRZjygjmf+OGBJp0Fd4fgb8aWEItDy7n7woqdjM/7e/i6gt8XiCxSbz6vug5CA33pOy3FiPPUA==",
   "success": true,
-  "projectFilePath": "E:\\papka\\work\\telegram+trumpcoin\\PrivateVideoProject\\PrivateVideo\\PrivateVideo\\PrivateVideo.csproj",
+  "projectFilePath": "E:\\Programming projects\\Visual Studio 2019\\Projects\\PrivateVideoProject\\privatevideo\\PrivateVideo\\PrivateVideo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Damchevski\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.30\\microsoft.aspnetcore.cryptography.internal.3.1.30.nupkg.sha512",
     "C:\\Users\\Damchevski\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.30\\microsoft.aspnetcore.cryptography.keyderivation.3.1.30.nupkg.sha512",

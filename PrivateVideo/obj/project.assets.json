@@ -5911,11 +5911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\papka\\work\\telegram+trumpcoin\\PrivateVideoProject\\PrivateVideo\\PrivateVideo\\PrivateVideo.csproj",
+      "projectUniqueName": "E:\\Programming projects\\Visual Studio 2019\\Projects\\PrivateVideoProject\\privatevideo\\PrivateVideo\\PrivateVideo.csproj",
       "projectName": "PrivateVideo",
-      "projectPath": "E:\\papka\\work\\telegram+trumpcoin\\PrivateVideoProject\\PrivateVideo\\PrivateVideo\\PrivateVideo.csproj",
+      "projectPath": "E:\\Programming projects\\Visual Studio 2019\\Projects\\PrivateVideoProject\\privatevideo\\PrivateVideo\\PrivateVideo.csproj",
       "packagesPath": "C:\\Users\\Damchevski\\.nuget\\packages\\",
-      "outputPath": "E:\\papka\\work\\telegram+trumpcoin\\PrivateVideoProject\\PrivateVideo\\PrivateVideo\\obj\\",
+      "outputPath": "E:\\Programming projects\\Visual Studio 2019\\Projects\\PrivateVideoProject\\privatevideo\\PrivateVideo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Damchevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
